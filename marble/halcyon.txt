@@ -1,0 +1,62 @@
+---------------------------------
+         29 October 2026
+---------------------------------
+
+  • marble: init: Mlock limited to 64 KB
+
+  • marble: sepolicy: Address wifi denial
+
+  • marble: init: Remove IO read_ahead_kb tune
+
+  • marble: Migrate libcameraservice ext to soong_config_set and Add missing sepolicy denials
+
+  • marble: init: Remove unnecessary QTI logkit directories
+
+  • marble: sepolicy: Allow hal_wifi_default to manage firmware tombstones
+
+  • marble: audio: Sync with Spatial Audio
+
+  • marble: Include Sony Dolby Atmos
+
+  • marble: properties: Remove obsolete SurfaceFlinger properties
+
+  • marble: Implement torch light control
+
+  • marble: properties: Enable frame pacing for smoother visual performance
+
+  • marble: sepolicy: Label some property
+
+  • marble: init: Set default Wi-Fi country code to '00'
+
+  • marble: init: Give proper permissions for /dev/diag
+
+  • marble: properties: Disable verbose camera logs
+
+  • marble: overlay: Convert config_screenBrightnessDoze to float
+
+  • marble: properties: Disable EGL image tracking
+
+  • marble: properties: Configure some display stack properties
+
+  • marble: audio: Add fallback SW A2DP routes
+
+  • marble: device: Optimizing dalvik heap configs
+
+  • marble: sepolicy: Label persist.vendor.audio.scenario property
+
+  • marble: properties: Set debug.sf.disable_client_composition_cache to 0
+
+  • marble: properties: Don't use phase offsets as durations
+
+  • marble: overlay: Configure sfps overlay
+
+  • marble: overlay: Add overlay to improve signal reception
+
+  • marble: overlay: Enable config_proximityCheckOnFpsUnlock
+
+  
+---------------------------------
+         24 October 2026
+---------------------------------
+
+  • Initial Release
